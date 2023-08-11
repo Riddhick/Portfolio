@@ -18,11 +18,11 @@ export default function Home(){
                     <button className="bg-black w-3/5 h-12 rounded-full">Get Resume</button>
                 </div>
             </div>
-            <div className="pr-10 md:pr-16 w-0 md:w-2/5 py-10">
+            <div className="pr-10 md:pr-16 w-0 sm:w-2/5 py-10">
                 <img className="rounded-[1000px] shadow-[0px_0px_50px_-5px] shadow-amber-400 " src={image}></img>
             </div> 
         </div>
-        <hr className="w-11/12 h-1 mx-auto my-4 bg-slate-50 border-0 rounded md:my-10"></hr>
+        <hr className="w-11/12 h-1 mx-auto my-4 bg-gray-400 border-0 rounded md:my-10"></hr>
         </>
     )
 }
