@@ -19,10 +19,10 @@ export default function Cards(prpos){
         console.log(newPos)
     }
     return(
-        <div className=" w-full flex flex-row justify-center gap-2" >
-                <div className="w-1/12 pt-32 md:pt-64"><BsChevronCompactLeft onClick={prevSlide} size={30}/></div>
-                <div className="bg-black w-10/12 h-72  md:h-[550px] rounded-[20px] flex flex-col gap-0">
-                    <div className="bg-slate-50 rounded-[20px_20px_0px_0px]">
+        <div className=" w-full flex flex-row justify-center gap-2 lg:items-center" >
+                <div className="w-1/12 pt-32 md:pt-64  lg:w-1/3 lg:pt-24 lg:rounded-[20px_20px_20px_20px] lg:bg-gradient-to-r from-zinc-900 to-zinc-700 lg:h-52"><BsChevronCompactLeft onClick={prevSlide} size={30}/></div>
+                <div className="bg-black w-10/12 h-72  md:h-[550px] lg:h-[450px] lg:w-1/3 rounded-[20px] flex flex-col gap-0">
+                    <div className="bg-black rounded-[20px_20px_0px_0px]">
                         <img className="rounded-[20px_20px_0px_0px] md:h-fit md:w-full" src={prpos.card[getProject].image}></img>
                     </div>
                     <div className="text-center py-4 md:py-10 md:text-2xl md:font-medium">{prpos.card[getProject].name}</div>
@@ -32,7 +32,7 @@ export default function Cards(prpos){
                         ))}
                     </div>
                 </div>
-                <div className="w-1/12 pt-32 md:pt-64 pl-2 md:pl-4  "><BsChevronCompactRight onClick={nextSlide} size={30}/></div>   
+                <div className="w-1/12 pt-32 md:pt-64 pl-2 md:pl-4 lg:pt-24 lg:pl-96 lg:w-1/3 lg:rounded-[20px_20px_20px_20px] lg:bg-gradient-to-r from-zinc-700 to-zinc-900 lg:h-52 lg:pr-8"><BsChevronCompactRight onClick={nextSlide} size={30}/></div>   
             </div> 
     )
 }
