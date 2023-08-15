@@ -33,7 +33,7 @@ export default function Cards(prpos){
                     <div className="text-center py-4 md:py-6 md:text-2xl md:font-medium lg:text-sm lg:py-6">{prpos.card[getProject].name}</div>
                     <div className="grid grid-cols-3 gap-2 md:gap-4 px-6  md:px-4 text-xs text-black font-medium md:text-lg md:font-semibold lg:text-sm">
                         {prpos.card[getProject].tech.map(t=>(
-                            <div className="bg-amber-400 w-11/12 md:h-8 lg:h-[20px] text-center  rounded-full">{t}</div>
+                            <div className="bg-amber-400 w-11/12 md:h-8 lg:h-[20px] lg:w-[70px] text-center  rounded-full">{t}</div>
                         ))}
                     </div>
                 </div>

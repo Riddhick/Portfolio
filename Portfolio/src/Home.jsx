@@ -14,7 +14,7 @@ export default function Home(){
                     <div className="text-sm md:text-lg font-medium">Android | Machine Learning</div>
                 </div>
                 <div className="h-20 pt-10  mx-0 md:mx-20 md:h-28 flex flex-row space-x-8 justify-center items-center">
-                    <button><img className="h-[63px] w-[64px] bg-slate-50 rounded-full " src={git}></img></button>
+                    <button><a href="https://github.com/Riddhick"><img className="h-[63px] w-[64px] bg-slate-50 rounded-full " src={git}></img></a></button>
                     <button className="bg-black w-3/5 h-12 rounded-full">Get Resume</button>
                 </div>
             </div>
