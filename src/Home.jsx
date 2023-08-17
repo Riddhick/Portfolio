@@ -1,6 +1,7 @@
 import React from "react";
 import image from "./assets/image.jpg"
 import git from "./assets/git.png"
+import resume from "./assets/downloadables/resume.pdf"
 
 export default function Home(){
     return (<>
@@ -15,7 +16,7 @@ export default function Home(){
                 </div>
                 <div className="h-20 pt-10  mx-0 md:mx-20 md:h-28 flex flex-row space-x-8 justify-center items-center">
                     <button><a href="https://github.com/Riddhick"><img className="h-[63px] w-[64px] bg-slate-50 rounded-full " src={git}></img></a></button>
-                    <button className="bg-black w-3/5 h-12 rounded-full">Get Resume</button>
+                    <button className="bg-black w-3/5 h-12 rounded-full"><a href={resume} download="Riddhick_Dalal">Get Resume</a></button>
                 </div>
             </div>
             <div className="pr-10 md:pr-16 w-0 sm:w-2/5 py-10">
