@@ -1,7 +1,7 @@
 import React from "react";
 import image from "./assets/image.jpg"
 import git from "./assets/git.png"
-import resume from "./assets/downloadables/resume.pdf"
+import resume from "./assets/downloadables/Resume.pdf"
 
 export default function Home(){
     return (<>
