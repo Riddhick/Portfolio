@@ -20,8 +20,12 @@ const template=[
         image:main2,
         name:"Simple Snake Game",
         tech:['HTML','CSS','JS'],
+    },
+    {
+        image:main3,
+        name:"Portfolio v1",
+        tech:['HTML','CSS','JS'],
     }
-    
 ]
     
 export default function Mainproject(){
