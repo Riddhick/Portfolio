@@ -14,6 +14,11 @@ const templates=[
         image:sub2,
         name:"Login Module",
         tech:['React','Express','MongoDB','Tailwind','Node']
+    },
+    {
+        image:main3,
+        name:"Portfolio v1",
+        tech:['HTML','CSS','JS'],
     }
 
 ]
