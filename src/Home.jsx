@@ -1,5 +1,5 @@
 import React from "react";
-import image from "./assets/image.jpg"
+import image from "./assets/image.png"
 import git from "./assets/git.png"
 import resume from "./assets/downloadables/Resume.pdf"
 
@@ -20,7 +20,7 @@ export default function Home(){
                 </div>
             </div>
             <div className="pr-10 md:pr-16 w-0 sm:w-2/5 py-10">
-                <img className="rounded-[1000px] shadow-[0px_0px_50px_-5px] shadow-amber-400 " src={image}></img>
+                <img className="rounded-lg shadow-[31px_25px_47px_-30px] shadow-white bg-gradient-to-r from-zinc-900 to-zinc-700" src={image}></img>
             </div> 
         </div>
         <hr className="w-11/12 h-1 mx-auto my-4 bg-gray-400 border-0 rounded md:my-10"></hr>
