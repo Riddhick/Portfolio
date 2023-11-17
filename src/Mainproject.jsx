@@ -1,6 +1,5 @@
 import React from "react";
 import main1 from "./assets/projects/main1.jpg";
-import main2 from "./assets/projects/main2.png";
 import main3 from "./assets/projects/main3.jpg";
 import main4 from "./assets/projects/main4.jpg";
 import Cards from "./Cards";
@@ -15,11 +14,6 @@ const template=[
         image:main4,
         name:"Bengali Speaker Identification",
         tech:['Python','ML','Keras','TF'],
-    },
-    {
-        image:main2,
-        name:"Simple Snake Game",
-        tech:['HTML','CSS','JS'],
     },
     {
         image:main3,

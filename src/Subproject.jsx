@@ -3,6 +3,7 @@ import Cards from "./Cards";
 
 import sub1 from "./assets/projects/sub1.png";
 import sub2 from "./assets/projects/sub2.png"
+import sub3 from "./assets/projects/sub3.png"
 
 const templates=[
     {
@@ -14,6 +15,11 @@ const templates=[
         image:sub2,
         name:"Login Module",
         tech:['React','Express','MongoDB','Tailwind','Node']
+    },
+    {
+        image:sub3,
+        name:"Simple Snake Game",
+        tech:['HTML','CSS','JS'],
     }
 
 ]
