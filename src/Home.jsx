@@ -34,7 +34,7 @@ export default function Home(){
               ></stop>
               <stop
                 id="stop2"
-                stopColor="rgba(239.831, 238.809, 237.122, 1)"
+                stopColor="rgba(139.709, 138.221, 135.765, 1)"
                 offset="100%"
               ></stop>
             </linearGradient>
@@ -65,7 +65,7 @@ export default function Home(){
             ></path>
             <image
               className="w-3/5"  x='20' y='8'
-              href="src/assets/image.png"
+              href={image}
             ></image>
             </g>
             </svg>
