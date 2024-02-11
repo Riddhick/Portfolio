@@ -62,12 +62,14 @@ export default function Home(){
               strokeWidth="0"
               style={{ transition: "all 0.3s ease 0s" }}
               stroke="url(#sw-gradient)"
-            ></path>
+            >
+            </path>
             <image
               className="w-3/5"  x='20' y='8'
               href={image}
             ></image>
             </g>
+  
             </svg>
             </div> 
         </div>

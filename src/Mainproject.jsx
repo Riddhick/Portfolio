@@ -1,6 +1,6 @@
 import React from "react";
 import main1 from "./assets/projects/main1.jpg";
-import main3 from "./assets/projects/main3.jpg";
+import main2 from "./assets/projects/main2.png";
 import main4 from "./assets/projects/main4.jpg";
 import Cards from "./Cards";
 
@@ -16,9 +16,9 @@ const template=[
         tech:['Python','ML','Keras','TF'],
     },
     {
-        image:main3,
-        name:"Portfolio v1",
-        tech:['HTML','CSS','JS'],
+        image:main2,
+        name:"Price Tracker App",
+        tech:['NextJs','MongoDb','Tailwind'],
     }
 ]
     

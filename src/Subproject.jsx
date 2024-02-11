@@ -4,6 +4,7 @@ import Cards from "./Cards";
 import sub1 from "./assets/projects/sub1.png";
 import sub2 from "./assets/projects/sub2.png"
 import sub3 from "./assets/projects/sub3.png"
+import sub4 from "./assets/projects/main3.jpg";
 
 const templates=[
     {
@@ -20,7 +21,13 @@ const templates=[
         image:sub3,
         name:"Simple Snake Game",
         tech:['HTML','CSS','JS'],
+    },
+    {
+        image:sub4,
+        name:"Portfolio v1",
+        tech:['HTML','CSS','JS'],
     }
+    
 
 ]
 

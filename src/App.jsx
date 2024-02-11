@@ -6,6 +6,7 @@ import Navbar from "./Navbar";
 import Home from "./Home";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Techstack from "./Techstack";
 
 function App() {
   const myref=useRef(null);
@@ -24,6 +25,7 @@ function App() {
      <section id="projects"><Projects/></section>
       
     </div >
+    <Techstack/>
     <motion.section id="contact" ref={myref} animate={animation}>
     <Contact />
     </motion.section>
